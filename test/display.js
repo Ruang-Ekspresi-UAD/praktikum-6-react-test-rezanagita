@@ -1,6 +1,6 @@
-import React from 'react';
+import React from "react";
 
-const Display = ({ value }) => {
+const Display = ({ value = "" }) => {
   return <p data-testid="display-value">Value: {value}</p>;
 };
 
